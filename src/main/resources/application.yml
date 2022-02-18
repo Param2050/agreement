@@ -1,0 +1,10 @@
+server:
+  port: 8033
+  servlet:
+    context-path: /agreement
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/agreement
