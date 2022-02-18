@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/agreement
+  cloud:
+    gcp:
+      credentials:
+        location: classpath:/gcpkey/local/directed-relic-341411-da4c463e047a.json
